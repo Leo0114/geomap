@@ -116,21 +116,27 @@ class _LocationAppState extends State<LocationApp> {
             Icon(
               Icons.gps_fixed_rounded,
               size: 47.0,
-              color: Colors.indigo,
+              color: Color.fromARGB(255, 37, 65, 38),
             ),
             SizedBox(
               height: 10.0,
             ),
             Text(
               "Mostrar ubicación",
-              style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontSize: 25.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.indigo),
             ),
             SizedBox(
               height: 21.0,
             ),
             Text(
               "Posición:",
-              style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.indigo),
             ),
             SizedBox(
               height: 21.0,
@@ -160,7 +166,10 @@ class _LocationAppState extends State<LocationApp> {
             ),
             Text(
               "Dirección: ",
-              style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.indigo),
             ),
             SizedBox(
               height: 21.0,
